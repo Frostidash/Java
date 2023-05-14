@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menugroup1">
+        <item
+            android:id="@+id/menu1"
+            android:icon="@mipmap/ic_launcher"
+
+            android:title="Модификации игр и приложений" />
+        <menu>
+            <item
+                android:id="@+id/submenu2"
+                android:title="Игры" />
+            <item
+                android:id="@+id/submenu3"
+                android:title="Приложения" />
+        </menu>
+
+
+        <item
+            android:id="@+id/menu2"
+            android:title="Игры и приложения" />
+        <menu>
+            <item
+                android:id="@+id/submenu4"
+                android:title="Игры" />
+            <item
+                android:id="@+id/submenu5"
+                android:title="Приложения" />
+        </menu>
+
+
+    </group>
+
+</menu>
